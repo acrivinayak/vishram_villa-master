@@ -1,0 +1,174 @@
+.eorik-slider-item .eorik-slider-text h1 {
+  margin-top: 138px;
+  margin-bottom: 13px;
+}
+
+.single-facilities-wrap {
+  height: 560px;
+}
+
+.eorik-slider-area .owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 85px;
+  margin-bottom: -27px;
+}
+.page-title-area {
+  background-image: url('/assets/img/ayurveda_Yoga/Ayurveda\ Shirodara-vv1.00.jpg');
+}
+
+.galleryTittle {
+  background-image: url('/assets/img/rooms/rooms-3.jpg');
+}
+
+.gallery-image {
+  background-image: url('/assets/img/rooms/rooms-1.jpg');
+}
+
+.bookTable {
+  background-image: url('../img/bookTable/5a707f4e46a2886d018b4569.jpeg');
+}
+
+/* body{
+  position: relative;
+} */
+.parentSection {
+  position: relative;
+}
+
+.iframeClass {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  padding: 1rem;
+  /* background-color: rgba(0, 0, 0, 0.623); */
+}
+
+.iframeClass iframe {
+  width: 60vw;
+  height: 50vh;
+}
+
+#closeTag {
+  margin-left: 50rem;
+  font-size: x-large;
+  color: white;
+  cursor: pointer;
+}
+
+.animation {
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+
+.service_link{
+  padding-left: 5rem;
+  padding: 2rem;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.644);
+  margin-left: 20rem;
+  margin-right: 25rem;
+}
+
+.service_link a{
+  color: rgb(36, 154, 233);
+  text-decoration: underline !important;
+
+}
+
+.service_link a:hover{
+  color: rgb(110, 6, 110);
+}
+
+.exclusive-content{
+  padding: 27px !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .tabs_item .preview-item {
+    transform: translate(0%) !important;
+  }
+  /* .packages .container {
+    width: 18rem;
+  }
+   */
+  .packages .card {
+    width: 29rem !important;
+  }
+
+  .iframeClass {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    padding: 1rem;
+    /* background-color: rgba(0, 0, 0, 0.623); */
+  }
+
+  .iframeClass iframe {
+    width: 65vw;
+    height: 30vh;
+  }
+  #closeTag {
+    margin-left: 39rem !important;
+  }
+  .eorik-slider-area .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 85px;
+    margin-bottom: 0px;
+  }
+  .service_link{
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+}
+  @media only screen and (min-width:768px), screen and (min-width:1023px){
+    .service_link{
+      margin-left: 10rem;
+      margin-right: 10rem;
+    }
+  }
+@media only screen and (max-width: 767px) {
+  .tabs_item .preview-item {
+    transform: translate(0%) !important;
+  }
+  .packages .container {
+    width: 18rem;
+  }
+
+  .packages .card {
+    width: 18rem !important;
+  }
+
+  .iframeClass {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    padding: 1rem;
+    /* background-color: rgba(0, 0, 0, 0.623); */
+  }
+
+  .iframeClass iframe {
+    width: 100vw;
+    height: 30vh;
+  }
+  #closeTag {
+    margin-left: 18rem !important;
+  }
+  .eorik-slider-area .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 85px;
+    margin-bottom: 0px;
+  }
+  .single-facilities-wrap {
+    height: auto;
+  }
+  .service_link{
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
